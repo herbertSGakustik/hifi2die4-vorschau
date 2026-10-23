@@ -286,6 +286,15 @@ footer a{color:var(--muted)}
 .pbody li{padding-left:16px;position:relative}
 .pbody li::before{content:"";position:absolute;left:2px;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--blue)}
 .fin{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pmore{margin-top:-2px}
+.pmore summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:.88rem;color:var(--blue-soft)}
+.pmore summary::-webkit-details-marker{display:none}
+.pmore summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+.pmore[open] summary::after{transform:translateY(2px) rotate(-135deg)}
+.pmore summary:hover{text-decoration:underline}
+.pmore .close,.pmore[open] .open{display:none}
+.pmore[open] .close{display:inline}
+.pmore p{margin:10px 0 0;color:var(--text);font-size:.93rem;line-height:1.6}
 .ptests{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;font-size:.86rem}
 .ptests .lbl{font:700 .7rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .ptests a{color:var(--blue-soft);font-weight:600;text-decoration:none}
