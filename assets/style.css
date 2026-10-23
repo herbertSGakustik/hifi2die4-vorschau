@@ -74,7 +74,7 @@ p{margin:0}
 .hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 50%}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.92) 0%,rgba(255,255,255,.75) 30%,rgba(255,255,255,0) 50%)}
 .hero .wrap{position:relative;z-index:1;width:100%;padding-block:clamp(56px,8vw,110px)}
-.hero-copy{display:grid;gap:22px;max-width:min(500px,42vw);padding-left:clamp(16px,3.5vw,56px)}
+.hero-copy{display:grid;gap:22px;max-width:min(470px,40vw)}
 .hero h1{font-size:clamp(2.4rem,4.6vw,4.2rem)}
 .hero h1 em{font-style:normal;color:var(--blue)}
 .hero p{color:var(--text);font-size:1.08rem;max-width:42ch}
@@ -84,7 +84,7 @@ p{margin:0}
   .hero{display:block;min-height:0}
   .hero img.bg{position:relative;inset:auto;height:auto;aspect-ratio:16/10;object-position:52% 60%}
   .hero::after{display:none}
-  .hero-copy{max-width:none;padding-left:0}
+  .hero-copy{max-width:none}
   .hero .caption{top:calc(62.5vw - 30px);bottom:auto;right:auto;left:16px}
 }
 
