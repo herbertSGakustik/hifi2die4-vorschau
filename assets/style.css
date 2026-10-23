@@ -295,6 +295,11 @@ footer a{color:var(--muted)}
 .pmore .close,.pmore[open] .open{display:none}
 .pmore[open] .close{display:inline}
 .pmore p{margin:10px 0 0;color:var(--text);font-size:.93rem;line-height:1.6}
+.pdata{width:100%;margin-top:14px;border-collapse:collapse;font-size:.84rem;font-variant-numeric:tabular-nums}
+.pdata caption{text-align:left;font:700 .7rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--blue-soft);padding-bottom:6px}
+.pdata th,.pdata td{text-align:left;vertical-align:top;padding:6px 0;border-top:1px solid var(--line)}
+.pdata th{font-weight:600;color:var(--muted);width:42%;padding-right:10px}
+.pdata td{color:var(--text)}
 .ptests{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;font-size:.86rem}
 .ptests .lbl{font:700 .7rem var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .ptests a{color:var(--blue-soft);font-weight:600;text-decoration:none}
